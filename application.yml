@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev  #开发环境
+    application:
+      name: microservercloud-config-wolfcode-dev
+---
+spring:
+  profiles: test  #开发环境
+    application:
+      name: microservercloud-config-wolfcode-test
+# 必须保存为UTF-8的格式
